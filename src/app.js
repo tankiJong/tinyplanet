@@ -29,5 +29,6 @@ var Main = cc.Scene.extend({
         this.init();
 
     }
+
 });
 
