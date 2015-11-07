@@ -1,0 +1,474 @@
+{
+  "ID": "8306974d-bd4e-42ac-a21c-c7f58c605f15",
+  "Version": "2.3.2.3",
+  "Name": "gameScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 90,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 530342504,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet01.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet02.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet03.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 10,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet04.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet05.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet06.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 25,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet07.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 30,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet08.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet09.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 40,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet10.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 45,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet11.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet12.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 55,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet13.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 60,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet14.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet15.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 70,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet16.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 75,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet17.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet18.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 85,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "planet/Planet01.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "background.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": -1.3887,
+              "Y": 1919.6135
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0013,
+              "Y": 0.9998
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -1.3887,
+            "RightMargin": 1.3887,
+            "TopMargin": 0.3865,
+            "BottomMargin": -0.3865,
+            "Tag": 142,
+            "ActionTag": -1444837277,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "background",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ufo.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 550.1653,
+              "Y": 1612.2598
+            },
+            "Scale": {
+              "ScaleX": 0.6269,
+              "ScaleY": 0.6584
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5094,
+              "Y": 0.8397
+            },
+            "PreSize": {
+              "X": 0.6204,
+              "Y": 0.1677
+            },
+            "LeftMargin": 215.1653,
+            "RightMargin": 194.8347,
+            "TopMargin": 146.7402,
+            "BottomMargin": 1451.2598,
+            "Tag": 138,
+            "ActionTag": -83529617,
+            "Size": {
+              "X": 670.0,
+              "Y": 322.0
+            },
+            "Name": "ufo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "user_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 2.4572,
+              "ScaleY": 4.714
+            },
+            "Position": {
+              "X": 536.3511,
+              "Y": 916.0151
+            },
+            "Scale": {
+              "ScaleX": 0.6362,
+              "ScaleY": 0.5842
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4966,
+              "Y": 0.4771
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 94.0615,
+            "RightMargin": 805.9385,
+            "TopMargin": 1672.5012,
+            "BottomMargin": 67.4987,
+            "Tag": 139,
+            "ActionTag": -45394730,
+            "Size": {
+              "X": 180.0,
+              "Y": 180.0
+            },
+            "Name": "user_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "user_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": -1.5046,
+              "ScaleY": 3.7561
+            },
+            "Position": {
+              "X": 536.3514,
+              "Y": 916.0135
+            },
+            "Scale": {
+              "ScaleX": 0.6882,
+              "ScaleY": 0.7401
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4966,
+              "Y": 0.4771
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 807.1715,
+            "RightMargin": 92.8285,
+            "TopMargin": 1500.0786,
+            "BottomMargin": 239.9213,
+            "Tag": 140,
+            "ActionTag": -2131339355,
+            "Size": {
+              "X": 180.0,
+              "Y": 180.0
+            },
+            "Name": "user_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "planet/Planet01.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 538.9088,
+              "Y": 915.8717
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.499,
+              "Y": 0.477
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 49.9088,
+            "RightMargin": 52.0912,
+            "TopMargin": 515.1283,
+            "BottomMargin": 426.8717,
+            "Tag": 141,
+            "ActionTag": 530342504,
+            "Size": {
+              "X": 978.0,
+              "Y": 978.0
+            },
+            "Name": "planet",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "background.jpg",
+        "planet/Planet01.png",
+        "planet/Planet02.png",
+        "planet/Planet03.png",
+        "planet/Planet04.png",
+        "planet/Planet05.png",
+        "planet/Planet06.png",
+        "planet/Planet07.png",
+        "planet/Planet08.png",
+        "planet/Planet09.png",
+        "planet/Planet10.png",
+        "planet/Planet11.png",
+        "planet/Planet12.png",
+        "planet/Planet13.png",
+        "planet/Planet14.png",
+        "planet/Planet15.png",
+        "planet/Planet16.png",
+        "planet/Planet17.png",
+        "planet/Planet18.png",
+        "ufo.png",
+        "user_1.png",
+        "user_2.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
