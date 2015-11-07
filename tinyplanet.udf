@@ -1,6 +1,32 @@
-<UserData>
-  <OpenedDocuments>
-    <FilePathData Path="MainScene.csd" />
-  </OpenedDocuments>
-  <ActiveDocument Path="MainScene.csd" />
+<UserData Version="2.3.2.3">
+  <Properties>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.tinyplanet" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="android-15" />
+        <iOS_Target Value="tinyplanet iOS" />
+        <iOS_BundleID Value="" />
+        <Platform Value="None" />
+        <RunPlatform Value="None" />
+        <FrameworkVersion Value="cocos2d-x-3.8" />
+        <IsDebugKeystore Value="True" />
+        <KeystorePassword Value="" />
+        <KeystoreAliasName Value="" />
+        <KeystoreAliasPassword Value="" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="CocosRecentOperation">
+      <Value ctype="CocosRecentOperation">
+        <LastPublishType Value="Resource" />
+        <IsLastPublish Value="True" />
+        <LastRunType Value="Mac" />
+      </Value>
+    </Item>
+  </Properties>
 </UserData>

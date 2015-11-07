@@ -18,7 +18,7 @@ var GameScene=cc.Scene.extend({
                 cc.log("update called")
             }
         });
-        cc.eventManager.addListener(this._listener1, 1);
+        cc.eventManager.addListener(updateStatusListener, 1);
     },
 
     onEnter:function(){

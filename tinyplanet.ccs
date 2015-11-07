@@ -1,10 +1,16 @@
 <Solution>
-  <PropertyGroup Name="tinyplanet" Version="2.1.0.0" Type="CocosStudio" />
+  <PropertyGroup Name="tinyplanet" Version="2.3.2.3" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Project Name="MainScene.csd" />
-        <Image Name="HelloWorld.png" />
+        <Project Name="backgroundLayer.csd" Type="Layer" />
+        <Project Name="motionLayer.csd" Type="Layer" />
+        <Project Name="gameScene.csd" Type="Scene" />
+        <Image Name="background.jpg" />
+        <Image Name="planet.png" />
+        <Image Name="ufo.png" />
+        <Image Name="user_1.png" />
+        <Image Name="user_2.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>
