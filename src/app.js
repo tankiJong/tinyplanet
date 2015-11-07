@@ -1,3 +1,6 @@
+var maxX = 0,
+    maxY = 0,
+    maxZ = 0;
 
 
 
@@ -11,7 +14,10 @@ var Main = cc.Scene.extend({
             event: cc.EventListener.ACCELERATION,
 
             callback: function(acc, event) {
-                cc.log(acc.x + " " + acc.y + " " +  acc.z + " " + acc.timestamp);
+
+                status.player0 = acc.y;
+                //console.log(acc.x + " " + acc.y + " " + acc.z);
+                PhisicalEngine.update(PLAYER.ME, acc.y)
             }
 
         }, this);
@@ -27,6 +33,7 @@ var Main = cc.Scene.extend({
     onEnter:function () {
         this._super();
         this.init();
+
 
     }
 

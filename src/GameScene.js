@@ -1,8 +1,10 @@
-var GameScene=cc.Scene.extend({
+var GameScene = cc.Scene.extend({
+
     planet :null,
     ufo:null,
     user_1:null,
     user_2:null,
+
     ctor:function(){
         this._super();
         this.init();
@@ -27,13 +29,14 @@ var GameScene=cc.Scene.extend({
 
     onEnter:function(){
         this._super();
-
-
+        this.startScheduleTik();
     },
 
 
     tik: function(){
         cc.log('i will be called many times');
+        PhisicalEngine.ticker();
+        cc.log(status.playerOmega0 + " " + status.planetOmega);
     },
 
     unscheduleTik: function(){
