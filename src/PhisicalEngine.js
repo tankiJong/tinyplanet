@@ -7,6 +7,9 @@ var SETTINGS = {
     PLANETI: 10
 };
 
+var UnitConversion = function (actual) {
+    return actual;
+}
 var status = {
     playerOmega0: 0, // 角速度
     playerOmega1: 0,

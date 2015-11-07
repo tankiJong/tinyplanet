@@ -25,15 +25,18 @@
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="True" />
-        <LastRunType Value="Windows" />
+        <LastRunType Value="Android" />
       </Value>
     </Item>
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
         <OpenedDocuments>
-          <FilePathData Path="motionLayer.csd" />
+          <FilePathData Path="backgroundLayer.csd" />
+          <FilePathData Path="gameScene.csd" />
+          <FilePathData Path="generalPlanet.csd" />
+          <FilePathData Path="planet.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="motionLayer.csd" />
+        <ActiveDocument Path="gameScene.csd" />
       </Value>
     </Item>
   </Properties>

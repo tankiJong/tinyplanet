@@ -5,6 +5,8 @@ var GameScene = cc.Scene.extend({
     user_1:null,
     user_2:null,
 
+    gameLayer:null,
+
     ctor:function(){
         this._super();
         this.init();
@@ -12,11 +14,19 @@ var GameScene = cc.Scene.extend({
 
     init: function(){
         this._super();
-        var gameScene = ccs.load(res.GameScene_json).node;
-        this.addChild(gameScene);
-        var items=['planet','ufo','user_1','user_2'];
-        for(var i=0; i<items.length; i++)
-            this[items[i]]=ccui.helper.seekWidgetByName(gameScene, items[i]);
+        var gameLayer = ccs.load(res.GameLayer_json).node;
+        this.gameLayer =gameLayer;
+        cc.log('success');
+        this.addChild(gameLayer);
+        cc.log('load success');
+        var items=['planet', 'ufo', 'user_1', 'user_2'];
+
+        //cc.log(motionLayer?'getttttt':'Nooooooo');
+        for(var i=0; i<items.length; i++){
+            this[items[i]]=gameLayer.getChildByName(items[i]);
+            cc.log(this[items[i]]?'getttttt':'Nooooooo');
+        }
+
         var updateStatusListener = cc.EventListener.create({
             event: cc.EventListener.CUSTOM,
             eventName: "update_status",
@@ -29,9 +39,26 @@ var GameScene = cc.Scene.extend({
 
     onEnter:function(){
         this._super();
-        this.startScheduleTik();
+        this.updatePlanetRotation(1);
     },
 
+    updatePlanetRotation: function(speed){
+        var action;
+        if(!this.planet._action){
+            //var frames=cc.spriteFrameCache.getSpriteFrames(res.Planet_animation);
+            //var animation = new cc.Animation(frames, UnitConversion(speed));
+            cc.log("called update");
+            action = ccs.load(res.Planet_animation).action;
+            cc.log(action?'getttttt':'Nooooooo');
+            action = this.gameLayer.runAction(action);
+            this.scheduleUpdate();
+            this.planet._action =action;
+        }
+        else {
+            action = this.this.planet._action;
+            action.setDelayPerUnit(UnitConversion(speed));
+        }
+    },
 
     tik: function(){
         cc.log('i will be called many times');
@@ -45,6 +72,9 @@ var GameScene = cc.Scene.extend({
 
     startScheduleTik: function(){
         cc.schedule(this.tik, 0.1);
+    },
+    update:function(){
+        if(this.planet._action.isPlaying())
+            cc.log('isPlaying');
     }
-
 });

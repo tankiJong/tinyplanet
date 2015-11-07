@@ -24,12 +24,11 @@
               "Dst": 771
             },
             "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
+              "ScaleY": 1.0
             },
             "Position": {
-              "X": 538.6113,
-              "Y": 959.6135
+              "X": -1.3887,
+              "Y": 1919.6135
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -38,13 +37,17 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.4987,
-              "Y": 0.4998
+              "X": -0.0013,
+              "Y": 0.9998
             },
             "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
+            "LeftMargin": -1.3887,
+            "RightMargin": 1.3887,
+            "TopMargin": 0.3865,
+            "BottomMargin": -0.3865,
             "Tag": 7,
             "ActionTag": -36225419,
             "Size": {

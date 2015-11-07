@@ -55,12 +55,15 @@ cc.game.onStart = function(){
     // Adjust viewport meta
     cc.view.adjustViewPort(true);
     // Setup the resolution policy and design resolution size
-    cc.view.setDesignResolutionSize(960, 640, cc.ResolutionPolicy.SHOW_ALL);
+    cc.view.setDesignResolutionSize(1280, 1920, cc.ResolutionPolicy.SHOW_ALL);
+    //cc.view.setdevi
     // The game will be resized when browser size change
     cc.view.resizeWithBrowserSize(true);
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
-        cc.director.runScene(new Main());
+        var scene =new GameScene();
+        scene.setAnchorPoint(0,1);
+        cc.director.runScene(scene);
     }, this);
 };
 cc.game.run();

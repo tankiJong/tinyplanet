@@ -3,66 +3,13 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Project Name="backgroundLayer.csd" Type="Layer" />
-        <Project Name="motionLayer.csd" Type="Layer" />
+        <Project Name="generalPlanet.csd" Type="Layer" />
         <Project Name="gameScene.csd" Type="Scene" />
         <Image Name="background.jpg" />
+        <Image Name="planet.png" />
         <Image Name="ufo.png" />
-        <Folder Name="Animation_UFO">
-          <Image Name="UFO_ (1).png" />
-          <Image Name="UFO_ (10).png" />
-          <Image Name="UFO_ (11).png" />
-          <Image Name="UFO_ (12).png" />
-          <Image Name="UFO_ (13).png" />
-          <Image Name="UFO_ (14).png" />
-          <Image Name="UFO_ (15).png" />
-          <Image Name="UFO_ (16).png" />
-          <Image Name="UFO_ (17).png" />
-          <Image Name="UFO_ (18).png" />
-          <Image Name="UFO_ (19).png" />
-          <Image Name="UFO_ (2).png" />
-          <Image Name="UFO_ (20).png" />
-          <Image Name="UFO_ (21).png" />
-          <Image Name="UFO_ (22).png" />
-          <Image Name="UFO_ (23).png" />
-          <Image Name="UFO_ (24).png" />
-          <Image Name="UFO_ (25).png" />
-          <Image Name="UFO_ (26).png" />
-          <Image Name="UFO_ (27).png" />
-          <Image Name="UFO_ (28).png" />
-          <Image Name="UFO_ (29).png" />
-          <Image Name="UFO_ (3).png" />
-          <Image Name="UFO_ (30).png" />
-          <Image Name="UFO_ (31).png" />
-          <Image Name="UFO_ (32).png" />
-          <Image Name="UFO_ (33).png" />
-          <Image Name="UFO_ (34).png" />
-          <Image Name="UFO_ (35).png" />
-          <Image Name="UFO_ (36).png" />
-          <Image Name="UFO_ (37).png" />
-          <Image Name="UFO_ (38).png" />
-          <Image Name="UFO_ (39).png" />
-          <Image Name="UFO_ (4).png" />
-          <Image Name="UFO_ (40).png" />
-          <Image Name="UFO_ (41).png" />
-          <Image Name="UFO_ (42).png" />
-          <Image Name="UFO_ (43).png" />
-          <Image Name="UFO_ (44).png" />
-          <Image Name="UFO_ (45).png" />
-          <Image Name="UFO_ (46).png" />
-          <Image Name="UFO_ (47).png" />
-          <Image Name="UFO_ (48).png" />
-          <Image Name="UFO_ (49).png" />
-          <Image Name="UFO_ (5).png" />
-          <Image Name="UFO_ (50).png" />
-          <Image Name="UFO_ (6).png" />
-          <Image Name="UFO_ (7).png" />
-          <Image Name="UFO_ (8).png" />
-          <Image Name="UFO_ (9).png" />
-        </Folder>
-        <Image Name="Planet.png" />
         <Image Name="user_1.png" />
-        <Image Name="User_2.png" />
+        <Image Name="user_2.png" />
         <Folder Name="planet">
           <Image Name="Planet01.png" />
           <Image Name="Planet02.png" />
@@ -83,6 +30,8 @@
           <Image Name="Planet17.png" />
           <Image Name="Planet18.png" />
         </Folder>
+        <Project Name="planet.csd" Type="Node" />
+        <Project Name="motionLayer__.csd" Type="Node" />
       </RootFolder>
     </Group>
   </SolutionFolder>

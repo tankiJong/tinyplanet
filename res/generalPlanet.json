@@ -1,7 +1,7 @@
 {
-  "ID": "8306974d-bd4e-42ac-a21c-c7f58c605f15",
+  "ID": "8f7746da-a70e-4ea5-966b-aa3911daa8cd",
   "Version": "2.3.2.3",
-  "Name": "gameScene",
+  "Name": "generalPlanet",
   "Content": {
     "Content": {
       "Animation": {
@@ -9,7 +9,7 @@
         "Speed": 1.0,
         "Timelines": [
           {
-            "ActionTag": 530342504,
+            "ActionTag": -1394753758,
             "Property": "FileData",
             "Frames": [
               {
@@ -246,8 +246,8 @@
             "RightMargin": 1.3887,
             "TopMargin": 0.3865,
             "BottomMargin": -0.3865,
-            "Tag": 142,
-            "ActionTag": -1444837277,
+            "Tag": 161,
+            "ActionTag": -1041104652,
             "Size": {
               "X": 1080.0,
               "Y": 1920.0
@@ -291,8 +291,8 @@
             "RightMargin": 194.8347,
             "TopMargin": 146.7402,
             "BottomMargin": 1451.2598,
-            "Tag": 138,
-            "ActionTag": -83529617,
+            "Tag": 162,
+            "ActionTag": 623531681,
             "Size": {
               "X": 670.0,
               "Y": 322.0
@@ -336,8 +336,8 @@
             "RightMargin": 805.9385,
             "TopMargin": 1672.5012,
             "BottomMargin": 67.4987,
-            "Tag": 139,
-            "ActionTag": -45394730,
+            "Tag": 163,
+            "ActionTag": 702837830,
             "Size": {
               "X": 180.0,
               "Y": 180.0
@@ -381,8 +381,8 @@
             "RightMargin": 92.8285,
             "TopMargin": 1500.0786,
             "BottomMargin": 239.9213,
-            "Tag": 140,
-            "ActionTag": -2131339355,
+            "Tag": 164,
+            "ActionTag": 1725178190,
             "Size": {
               "X": 180.0,
               "Y": 180.0
@@ -426,8 +426,8 @@
             "RightMargin": 52.0912,
             "TopMargin": 515.1283,
             "BottomMargin": 426.8717,
-            "Tag": 141,
-            "ActionTag": 530342504,
+            "Tag": 165,
+            "ActionTag": -1394753758,
             "Size": {
               "X": 978.0,
               "Y": 978.0
@@ -440,8 +440,8 @@
           "X": 1080.0,
           "Y": 1920.0
         },
-        "Name": "Scene",
-        "ctype": "SingleNodeObjectData"
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
       },
       "UsedResources": [
         "background.jpg",
@@ -470,5 +470,5 @@
       "ctype": "GameProjectData"
     }
   },
-  "Type": "Scene"
+  "Type": "Layer"
 }

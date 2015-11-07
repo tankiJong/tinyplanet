@@ -1,7 +1,7 @@
 {
-  "ID": "8f7746da-a70e-4ea5-966b-aa3911daa8cd",
+  "ID": "65bbf638-7992-40e2-b2c7-7e599b9a1e29",
   "Version": "2.3.2.3",
-  "Name": "motionLayer",
+  "Name": "motionLayer__",
   "Content": {
     "Content": {
       "Animation": {
@@ -9,7 +9,7 @@
         "Speed": 1.0,
         "Timelines": [
           {
-            "ActionTag": -397936170,
+            "ActionTag": 1876661931,
             "Property": "ActionValue",
             "Frames": [
               {
@@ -24,7 +24,7 @@
             "ctype": "TimelineData"
           },
           {
-            "ActionTag": -397936170,
+            "ActionTag": 1876661931,
             "Property": "Position",
             "Frames": [
               {
@@ -40,7 +40,7 @@
             "ctype": "TimelineData"
           },
           {
-            "ActionTag": -397936170,
+            "ActionTag": 1876661931,
             "Property": "Scale",
             "Frames": [
               {
@@ -56,7 +56,7 @@
             "ctype": "TimelineData"
           },
           {
-            "ActionTag": -397936170,
+            "ActionTag": 1876661931,
             "Property": "RotationSkew",
             "Frames": [
               {
@@ -76,6 +76,7 @@
       },
       "AnimationList": [],
       "ObjectData": {
+        "Tag": 106,
         "Children": [
           {
             "FileData": {
@@ -113,8 +114,8 @@
             "RightMargin": 194.8347,
             "TopMargin": 146.7402,
             "BottomMargin": 1451.2598,
-            "Tag": 10,
-            "ActionTag": 1713758785,
+            "Tag": 107,
+            "ActionTag": -188588404,
             "Size": {
               "X": 670.0,
               "Y": 322.0
@@ -158,8 +159,8 @@
             "RightMargin": 805.9385,
             "TopMargin": 1672.5012,
             "BottomMargin": 67.4987,
-            "Tag": 6,
-            "ActionTag": 932506942,
+            "Tag": 108,
+            "ActionTag": -847589407,
             "Size": {
               "X": 180.0,
               "Y": 180.0
@@ -203,8 +204,8 @@
             "RightMargin": 92.8285,
             "TopMargin": 1500.0786,
             "BottomMargin": 239.9213,
-            "Tag": 7,
-            "ActionTag": 1406122478,
+            "Tag": 109,
+            "ActionTag": -736876066,
             "Size": {
               "X": 180.0,
               "Y": 180.0
@@ -231,19 +232,19 @@
             "CColor": {},
             "IconVisible": true,
             "PrePosition": {
-              "X": 0.4958,
-              "Y": 0.4787
+              "X": 0.0,
+              "Y": 0.0
             },
             "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
             "LeftMargin": 535.4326,
-            "RightMargin": 544.5674,
-            "TopMargin": 1000.8517,
+            "RightMargin": -535.4326,
+            "TopMargin": -919.1483,
             "BottomMargin": 919.1483,
-            "Tag": 45,
-            "ActionTag": -397936170,
+            "Tag": 110,
+            "ActionTag": 1876661931,
             "Size": {
               "X": 0.0,
               "Y": 0.0
@@ -253,11 +254,11 @@
           }
         ],
         "Size": {
-          "X": 1080.0,
-          "Y": 1920.0
+          "X": 0.0,
+          "Y": 0.0
         },
-        "Name": "Layer",
-        "ctype": "LayerObjectData"
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
         "planet.json",
@@ -268,5 +269,5 @@
       "ctype": "GameProjectData"
     }
   },
-  "Type": "Layer"
+  "Type": "Node"
 }

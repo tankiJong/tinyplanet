@@ -17,7 +17,7 @@ var Main = cc.Scene.extend({
 
                 status.player0 = acc.y;
                 //console.log(acc.x + " " + acc.y + " " + acc.z);
-                PhisicalEngine.update(PLAYER.ME, acc.y)
+                //PhisicalEngine.update(PLAYER.ME, acc.y)
             }
 
         }, this);
@@ -33,8 +33,7 @@ var Main = cc.Scene.extend({
     onEnter:function () {
         this._super();
         this.init();
-
-
+        this.addChild(new GameScene());
     }
 
 });
