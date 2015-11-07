@@ -24,6 +24,11 @@ var HelloWorldScene = cc.Scene.extend({
         this._super();
         var layer = new HelloWorldLayer();
         this.addChild(layer);
+
+        setInterval(function(){
+            cc.log('hello world');
+        },1000);
+
     }
 });
 
