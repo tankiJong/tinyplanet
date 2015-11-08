@@ -86,7 +86,7 @@ var PhisicalEngine = {
             jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "setServerState", "(Ljava/lang/String;)V", JSON.stringify(state));
         }
         else {
-            //state = JSON.stringify(jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkClient", "getState", "()Ljava/lang/String;)"));
+            state = JSON.stringify(jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkClient", "getState", "(Ljava/lang/String;)"));
         }
 
         // update ticker
