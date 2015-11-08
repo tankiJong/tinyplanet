@@ -16,6 +16,7 @@ var GameScene = cc.Scene.extend({
 
     init: function(){
         this._super();
+        this._enableAccelerationRecognition();
         var gameLayer = ccs.load(res.GameLayer_json).node;
         var me,other;
         this.gameLayer =gameLayer;
@@ -111,7 +112,7 @@ var GameScene = cc.Scene.extend({
             action = ccs.load(res.Planet_animation).action;
             cc.log(action?'getttttt':'Nooooooo');
             action.gotoFrameAndPlay(0,360,true);
-            action.setTimeSpeed(UnitConversion(1));
+            action.setTimeSpeed(1);
             action = this.gameLayer.runAction(action);
             this.scheduleUpdate();
             this.planet._action =action;
@@ -125,17 +126,17 @@ var GameScene = cc.Scene.extend({
                 if(speed > 0){
                     action.gotoFrameAndPlay(0,360,true);
                     action.setCurrentFrame(720 - f);
-                    action.setTimeSpeed(UnitConversion(speed));
+                    action.setTimeSpeed(speed);
                 } else {
                     action.gotoFrameAndPlay(360,720,true);
                     action.setCurrentFrame(720 - f);
-                    action.setTimeSpeed(UnitConversion(-speed));
+                    action.setTimeSpeed(-speed);
                 }
                 action.direction = action.direction *(-1);
 
             }
 
-            action.setTimeSpeed(UnitConversion(speed));
+            action.setTimeSpeed(speed);
             action.setCurrentFrame(f);
         }
     },
@@ -153,6 +154,24 @@ var GameScene = cc.Scene.extend({
     startScheduleTik: function(){
         cc.schedule(this.tik, 0.1);
     },
+
+    _enableAccelerationRecognition: function() {
+
+        cc.inputManager.setAccelerometerEnabled(true);
+        cc.eventManager.addListener({
+
+            event: cc.EventListener.ACCELERATION,
+
+            callback: function(acc, event) {
+
+                status.player0 = acc.y;
+                //console.log(acc.x + " " + acc.y + " " + acc.z);
+                //PhisicalEngine.update(PLAYER.ME, acc.y)
+            }
+
+        }, this);
+    },
+
     update:function(){
         if(this.planet._action.isPlaying()){
             cc.log('isPlaying');
