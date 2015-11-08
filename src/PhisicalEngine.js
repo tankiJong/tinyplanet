@@ -17,7 +17,7 @@ var status = {
     planetAlpha: 0,
 
     playerTheta0: 0, // 位置(极坐标)
-    playerTheta1: 0,
+    playerTheta1: 160,
     planetTheta: 0,
 
     local: 1

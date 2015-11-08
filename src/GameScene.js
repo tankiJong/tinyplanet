@@ -40,19 +40,15 @@ var GameScene = cc.Scene.extend({
                 data = JSON.parse(data);
 
                 if (status.local) {
-<<<<<<< HEAD
                     me.changeSpeed(data.playerOmega0);
-                    other.routate(data.playerTheta1);
+                    other.rotate(data.playerTheta1);
                 }
                 else {
                     me.changeSpeed(data.playerOmega1);
-                    other.routate(data.playerTheta0);
-=======
+                    other.rotate(data.playerTheta0);
+
                 }
-                else {
->>>>>>> 058417d7b16324799fd4e19f9384408f089ed346
-                }
-                self.planet.rotate (data.planetTheta);
+                self.planet.rotate (data.planetTheta-self.planet.rotation);
 
 
             }
@@ -77,8 +73,8 @@ var GameScene = cc.Scene.extend({
                 gameLayer.runAction(startRunAnimation);
             };
 
-            this.routate = function (spd) {
-                startRunAnimation.setTimeSpeed(UnitConversion(spd));
+            this.changeSpeed = function (spd) {
+                startRunAnimation.setTimeSpeed(spd);
             };
 
             this.stopRun = function () {
@@ -172,6 +168,7 @@ var GameScene = cc.Scene.extend({
     tik: function(){
         cc.log('i will be called many times');
         PhisicalEngine.ticker();
+        this.ufo.rotate(1);
         cc.log(status.playerOmega0 + " " + status.planetOmega);
     },
 
