@@ -42,8 +42,22 @@ var PhisicalEngine = {
         // 计算相对位置
 
         status.playerTheta0 += SETTINGS.TIMEINTERVAL * (status.playerOmega0 + status.playerAlpha0/2);
+        while (status.playerTheta0 < 0)
+            status.playerTheta0 += 360;
+        while (status.playerTheta0 < 360)
+            status.playerTheta0 -= 360;
+
         status.playerTheta1 += SETTINGS.TIMEINTERVAL * (status.playerOmega1 + status.playerAlpha1/2);
+        while (status.playerTheta1 < 0)
+            status.playerTheta1 += 360;
+        while (status.playerTheta1 < 360)
+            status.playerTheta1 -= 360;
+
         status.planetTheta += SETTINGS.TIMEINTERVAL * (status.planetOmega + status.planetAlpha/2);
+        while (status.planetTheta < 0)
+            status.planetTheta += 360;
+        while (status.planetTheta < 360)
+            status.planetTheta -= 360;
 
         // 计算速度
         status.playerOmega0 += SETTINGS.TIMEINTERVAL * status.playerAlpha0;
