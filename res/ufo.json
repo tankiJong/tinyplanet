@@ -1,0 +1,623 @@
+{
+  "ID": "a61e1231-b951-4d53-9821-5290cdc3c7bf",
+  "Version": "2.3.2.3",
+  "Name": "ufo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 144,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -1061564634,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_01.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_02.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 3,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_03.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 6,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_04.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 9,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_05.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 12,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_06.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_07.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 18,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_08.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 21,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_09.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 24,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_10.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 27,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_11.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 30,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_12.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 33,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_13.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 36,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_14.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 39,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_15.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 42,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_16.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 45,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_17.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 48,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_18.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 51,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_19.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 54,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_20.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 57,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_21.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 60,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_22.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 63,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_23.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 66,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_24.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 69,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_25.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 72,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_26.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 75,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_27.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 78,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_28.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 81,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_29.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 84,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_30.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 87,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_32.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_33.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 93,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_34.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 96,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_35.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 99,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_36.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 102,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_37.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 105,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_38.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 108,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_39.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 111,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_40.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 114,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_41.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 117,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_42.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 120,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_43.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 123,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_44.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 126,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_45.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 129,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_46.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 132,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_47.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 135,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_48.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 138,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_49.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 141,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "Animation_UFO/UFO_50.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 144,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 42,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Animation_UFO/UFO_01.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5456,
+              "ScaleY": -3.9711
+            },
+            "Position": {
+              "X": 1.9246,
+              "Y": -5.7717
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -229.936,
+            "RightMargin": -195.064,
+            "TopMargin": -2246.1191,
+            "BottomMargin": 1793.1194,
+            "Tag": 45,
+            "ActionTag": -1061564634,
+            "Size": {
+              "X": 425.0,
+              "Y": 453.0
+            },
+            "Name": "Sprite",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Animation_UFO/UFO_01.png",
+        "Animation_UFO/UFO_02.png",
+        "Animation_UFO/UFO_03.png",
+        "Animation_UFO/UFO_04.png",
+        "Animation_UFO/UFO_05.png",
+        "Animation_UFO/UFO_06.png",
+        "Animation_UFO/UFO_07.png",
+        "Animation_UFO/UFO_08.png",
+        "Animation_UFO/UFO_09.png",
+        "Animation_UFO/UFO_10.png",
+        "Animation_UFO/UFO_11.png",
+        "Animation_UFO/UFO_12.png",
+        "Animation_UFO/UFO_13.png",
+        "Animation_UFO/UFO_14.png",
+        "Animation_UFO/UFO_15.png",
+        "Animation_UFO/UFO_16.png",
+        "Animation_UFO/UFO_17.png",
+        "Animation_UFO/UFO_18.png",
+        "Animation_UFO/UFO_19.png",
+        "Animation_UFO/UFO_20.png",
+        "Animation_UFO/UFO_21.png",
+        "Animation_UFO/UFO_22.png",
+        "Animation_UFO/UFO_23.png",
+        "Animation_UFO/UFO_24.png",
+        "Animation_UFO/UFO_25.png",
+        "Animation_UFO/UFO_26.png",
+        "Animation_UFO/UFO_27.png",
+        "Animation_UFO/UFO_28.png",
+        "Animation_UFO/UFO_29.png",
+        "Animation_UFO/UFO_30.png",
+        "Animation_UFO/UFO_32.png",
+        "Animation_UFO/UFO_33.png",
+        "Animation_UFO/UFO_34.png",
+        "Animation_UFO/UFO_35.png",
+        "Animation_UFO/UFO_36.png",
+        "Animation_UFO/UFO_37.png",
+        "Animation_UFO/UFO_38.png",
+        "Animation_UFO/UFO_39.png",
+        "Animation_UFO/UFO_40.png",
+        "Animation_UFO/UFO_41.png",
+        "Animation_UFO/UFO_42.png",
+        "Animation_UFO/UFO_43.png",
+        "Animation_UFO/UFO_44.png",
+        "Animation_UFO/UFO_45.png",
+        "Animation_UFO/UFO_46.png",
+        "Animation_UFO/UFO_47.png",
+        "Animation_UFO/UFO_48.png",
+        "Animation_UFO/UFO_49.png",
+        "Animation_UFO/UFO_50.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

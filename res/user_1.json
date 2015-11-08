@@ -1,0 +1,2111 @@
+{
+  "ID": "2d9f058c-8663-4e17-9edf-541c3b4c0a47",
+  "Version": "2.3.2.3",
+  "Name": "user_1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 181,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 1591747138,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00000.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00001.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 1,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00002.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 2,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00003.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 3,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00004.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 4,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00005.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00006.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 6,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00007.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 7,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00008.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00009.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 9,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00010.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 10,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00011.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 11,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00012.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 12,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00013.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 13,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00014.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 14,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00015.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00016.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 16,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00017.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 17,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00018.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 18,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00019.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 19,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00020.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00021.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 21,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00022.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 22,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00023.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 23,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00024.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 24,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00025.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 25,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00026.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 26,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00027.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 27,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00028.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 28,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00029.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 29,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00030.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 30,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00031.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 31,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00032.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 32,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00033.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 33,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00034.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 34,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00035.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00036.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 36,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00037.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 37,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00038.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 38,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00039.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 39,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00040.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 40,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00041.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 41,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00042.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 42,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00043.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 43,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00044.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 44,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00045.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 45,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00046.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 46,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00047.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 47,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00048.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 48,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00049.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 49,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00050.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00051.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 51,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00052.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 52,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00053.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 53,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00054.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 54,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00055.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 55,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00056.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 56,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00057.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 57,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00058.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 58,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00059.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 59,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00060.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 60,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00061.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 61,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00062.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 62,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00063.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 63,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00064.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 64,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00065.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00066.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 66,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00067.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 67,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00068.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 68,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00069.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 69,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00070.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 70,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00071.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 71,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00072.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 72,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00073.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 73,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00074.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 74,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00075.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 75,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00076.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 76,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00077.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 77,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00078.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 78,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00079.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 79,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00080.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00081.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 81,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00082.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 82,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00083.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 83,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00084.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 84,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00085.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 85,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00086.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 86,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00087.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 87,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00088.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 88,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00089.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 89,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu_00090.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_000171.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 91,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00091.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 92,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00092.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 93,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00093.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 94,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00094).png",
+                  "Plist": ""
+                },
+                "FrameIndex": 95,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00095.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 96,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00096.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 97,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00097.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 98,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00098.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 99,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00099.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 100,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00100.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 101,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00101.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 102,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00102.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 103,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00103.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 104,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00104.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 105,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00105.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 106,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00106.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 107,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00107.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 108,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00108.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 109,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00109.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 110,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00110.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 111,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00111.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 112,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00112.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 113,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00113.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 114,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00114.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 115,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00115.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 116,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00116.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 117,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00117.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 118,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00118.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 119,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00119.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 120,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00120.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 121,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00121.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 122,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00122.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 123,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00123.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 124,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00124.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 125,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00125.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 126,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00126.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 127,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00127.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 128,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00128.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 129,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00129.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 130,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00130.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 131,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00131.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 132,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00132.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 133,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00133.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 134,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00134.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 135,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00135.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 136,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00136.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 137,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00137.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 138,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00138.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 139,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00139.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 140,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00140.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 141,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00141.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 142,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00142.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 143,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00143.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 144,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00144.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 145,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00145.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 146,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00146.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 147,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00147.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 148,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00148.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 149,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00149.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 150,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00150.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 151,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00151.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 152,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00152).png",
+                  "Plist": ""
+                },
+                "FrameIndex": 153,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00153.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 154,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00154.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 155,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00155.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 156,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00156.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 157,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00157.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 158,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00158.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 159,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00159.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 160,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00160.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 161,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00161.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 162,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00162.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 163,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00163.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 164,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00164.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 165,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00165.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 166,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00166.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 167,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00167.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 168,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00168.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 169,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00169.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 170,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00170.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 171,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00172.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 172,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00173.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 173,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00174.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 174,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00175.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 175,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00176.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 176,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00177.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 177,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00178.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 178,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00179.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 179,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00180.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 180,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "renwu/renwu1_00181.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 181,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 90,
+          "Name": "lost",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 90,
+          "EndIndex": 100,
+          "Name": "start",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 100,
+          "EndIndex": 170,
+          "Name": "run",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 170,
+          "EndIndex": 181,
+          "Name": "stop",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 48,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "renwu/renwu_00000.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0052,
+              "Y": 0.0027
+            },
+            "Scale": {
+              "ScaleX": 0.0844,
+              "ScaleY": 0.0844
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -424.9948,
+            "RightMargin": -425.0052,
+            "TopMargin": -609.0027,
+            "BottomMargin": -608.9973,
+            "Tag": 20,
+            "ActionTag": 1591747138,
+            "Size": {
+              "X": 850.0,
+              "Y": 1218.0
+            },
+            "Name": "Sprite",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "renwu/renwu_00000.png",
+        "renwu/renwu_00001.png",
+        "renwu/renwu_00002.png",
+        "renwu/renwu_00003.png",
+        "renwu/renwu_00004.png",
+        "renwu/renwu_00005.png",
+        "renwu/renwu_00006.png",
+        "renwu/renwu_00007.png",
+        "renwu/renwu_00008.png",
+        "renwu/renwu_00009.png",
+        "renwu/renwu_00010.png",
+        "renwu/renwu_00011.png",
+        "renwu/renwu_00012.png",
+        "renwu/renwu_00013.png",
+        "renwu/renwu_00014.png",
+        "renwu/renwu_00015.png",
+        "renwu/renwu_00016.png",
+        "renwu/renwu_00017.png",
+        "renwu/renwu_00018.png",
+        "renwu/renwu_00019.png",
+        "renwu/renwu_00020.png",
+        "renwu/renwu_00021.png",
+        "renwu/renwu_00022.png",
+        "renwu/renwu_00023.png",
+        "renwu/renwu_00024.png",
+        "renwu/renwu_00025.png",
+        "renwu/renwu_00026.png",
+        "renwu/renwu_00027.png",
+        "renwu/renwu_00028.png",
+        "renwu/renwu_00029.png",
+        "renwu/renwu_00030.png",
+        "renwu/renwu_00031.png",
+        "renwu/renwu_00032.png",
+        "renwu/renwu_00033.png",
+        "renwu/renwu_00034.png",
+        "renwu/renwu_00035.png",
+        "renwu/renwu_00036.png",
+        "renwu/renwu_00037.png",
+        "renwu/renwu_00038.png",
+        "renwu/renwu_00039.png",
+        "renwu/renwu_00040.png",
+        "renwu/renwu_00041.png",
+        "renwu/renwu_00042.png",
+        "renwu/renwu_00043.png",
+        "renwu/renwu_00044.png",
+        "renwu/renwu_00045.png",
+        "renwu/renwu_00046.png",
+        "renwu/renwu_00047.png",
+        "renwu/renwu_00048.png",
+        "renwu/renwu_00049.png",
+        "renwu/renwu_00050.png",
+        "renwu/renwu_00051.png",
+        "renwu/renwu_00052.png",
+        "renwu/renwu_00053.png",
+        "renwu/renwu_00054.png",
+        "renwu/renwu_00055.png",
+        "renwu/renwu_00056.png",
+        "renwu/renwu_00057.png",
+        "renwu/renwu_00058.png",
+        "renwu/renwu_00059.png",
+        "renwu/renwu_00060.png",
+        "renwu/renwu_00061.png",
+        "renwu/renwu_00062.png",
+        "renwu/renwu_00063.png",
+        "renwu/renwu_00064.png",
+        "renwu/renwu_00065.png",
+        "renwu/renwu_00066.png",
+        "renwu/renwu_00067.png",
+        "renwu/renwu_00068.png",
+        "renwu/renwu_00069.png",
+        "renwu/renwu_00070.png",
+        "renwu/renwu_00071.png",
+        "renwu/renwu_00072.png",
+        "renwu/renwu_00073.png",
+        "renwu/renwu_00074.png",
+        "renwu/renwu_00075.png",
+        "renwu/renwu_00076.png",
+        "renwu/renwu_00077.png",
+        "renwu/renwu_00078.png",
+        "renwu/renwu_00079.png",
+        "renwu/renwu_00080.png",
+        "renwu/renwu_00081.png",
+        "renwu/renwu_00082.png",
+        "renwu/renwu_00083.png",
+        "renwu/renwu_00084.png",
+        "renwu/renwu_00085.png",
+        "renwu/renwu_00086.png",
+        "renwu/renwu_00087.png",
+        "renwu/renwu_00088.png",
+        "renwu/renwu_00089.png",
+        "renwu/renwu_00090.png",
+        "renwu/renwu1_000171.png",
+        "renwu/renwu1_00091.png",
+        "renwu/renwu1_00092.png",
+        "renwu/renwu1_00093.png",
+        "renwu/renwu1_00094).png",
+        "renwu/renwu1_00095.png",
+        "renwu/renwu1_00096.png",
+        "renwu/renwu1_00097.png",
+        "renwu/renwu1_00098.png",
+        "renwu/renwu1_00099.png",
+        "renwu/renwu1_00100.png",
+        "renwu/renwu1_00101.png",
+        "renwu/renwu1_00102.png",
+        "renwu/renwu1_00103.png",
+        "renwu/renwu1_00104.png",
+        "renwu/renwu1_00105.png",
+        "renwu/renwu1_00106.png",
+        "renwu/renwu1_00107.png",
+        "renwu/renwu1_00108.png",
+        "renwu/renwu1_00109.png",
+        "renwu/renwu1_00110.png",
+        "renwu/renwu1_00111.png",
+        "renwu/renwu1_00112.png",
+        "renwu/renwu1_00113.png",
+        "renwu/renwu1_00114.png",
+        "renwu/renwu1_00115.png",
+        "renwu/renwu1_00116.png",
+        "renwu/renwu1_00117.png",
+        "renwu/renwu1_00118.png",
+        "renwu/renwu1_00119.png",
+        "renwu/renwu1_00120.png",
+        "renwu/renwu1_00121.png",
+        "renwu/renwu1_00122.png",
+        "renwu/renwu1_00123.png",
+        "renwu/renwu1_00124.png",
+        "renwu/renwu1_00125.png",
+        "renwu/renwu1_00126.png",
+        "renwu/renwu1_00127.png",
+        "renwu/renwu1_00128.png",
+        "renwu/renwu1_00129.png",
+        "renwu/renwu1_00130.png",
+        "renwu/renwu1_00131.png",
+        "renwu/renwu1_00132.png",
+        "renwu/renwu1_00133.png",
+        "renwu/renwu1_00134.png",
+        "renwu/renwu1_00135.png",
+        "renwu/renwu1_00136.png",
+        "renwu/renwu1_00137.png",
+        "renwu/renwu1_00138.png",
+        "renwu/renwu1_00139.png",
+        "renwu/renwu1_00140.png",
+        "renwu/renwu1_00141.png",
+        "renwu/renwu1_00142.png",
+        "renwu/renwu1_00143.png",
+        "renwu/renwu1_00144.png",
+        "renwu/renwu1_00145.png",
+        "renwu/renwu1_00146.png",
+        "renwu/renwu1_00147.png",
+        "renwu/renwu1_00148.png",
+        "renwu/renwu1_00149.png",
+        "renwu/renwu1_00150.png",
+        "renwu/renwu1_00151.png",
+        "renwu/renwu1_00152).png",
+        "renwu/renwu1_00153.png",
+        "renwu/renwu1_00154.png",
+        "renwu/renwu1_00155.png",
+        "renwu/renwu1_00156.png",
+        "renwu/renwu1_00157.png",
+        "renwu/renwu1_00158.png",
+        "renwu/renwu1_00159.png",
+        "renwu/renwu1_00160.png",
+        "renwu/renwu1_00161.png",
+        "renwu/renwu1_00162.png",
+        "renwu/renwu1_00163.png",
+        "renwu/renwu1_00164.png",
+        "renwu/renwu1_00165.png",
+        "renwu/renwu1_00166.png",
+        "renwu/renwu1_00167.png",
+        "renwu/renwu1_00168.png",
+        "renwu/renwu1_00169.png",
+        "renwu/renwu1_00170.png",
+        "renwu/renwu1_00172.png",
+        "renwu/renwu1_00173.png",
+        "renwu/renwu1_00174.png",
+        "renwu/renwu1_00175.png",
+        "renwu/renwu1_00176.png",
+        "renwu/renwu1_00177.png",
+        "renwu/renwu1_00178.png",
+        "renwu/renwu1_00179.png",
+        "renwu/renwu1_00180.png",
+        "renwu/renwu1_00181.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

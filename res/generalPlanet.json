@@ -16,19 +16,20 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "background.jpg",
+              "Path": "background.png",
               "Plist": ""
             },
             "BlendFunc": {
-              "Src": 1,
+              "Src": 770,
               "Dst": 771
             },
             "AnchorPoint": {
-              "ScaleY": 1.0
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
             },
             "Position": {
-              "X": -1.3887,
-              "Y": 1919.6135
+              "X": 540.0,
+              "Y": 960.0
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -37,159 +38,20 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": -0.0013,
-              "Y": 0.9998
+              "X": 0.5,
+              "Y": 0.5
             },
             "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": -1.3887,
-            "RightMargin": 1.3887,
-            "TopMargin": 0.3865,
-            "BottomMargin": -0.3865,
-            "Tag": 161,
-            "ActionTag": -1041104652,
+            "Tag": 84,
+            "ActionTag": 1359536440,
             "Size": {
               "X": 1080.0,
               "Y": 1920.0
             },
             "Name": "background",
-            "ctype": "SpriteObjectData"
-          },
-          {
-            "FileData": {
-              "Type": "Normal",
-              "Path": "ufo.png",
-              "Plist": ""
-            },
-            "BlendFunc": {
-              "Src": 1,
-              "Dst": 771
-            },
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 550.1653,
-              "Y": 1612.2598
-            },
-            "Scale": {
-              "ScaleX": 0.6269,
-              "ScaleY": 0.6584
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.5094,
-              "Y": 0.8397
-            },
-            "PreSize": {
-              "X": 0.6204,
-              "Y": 0.1677
-            },
-            "LeftMargin": 215.1653,
-            "RightMargin": 194.8347,
-            "TopMargin": 146.7402,
-            "BottomMargin": 1451.2598,
-            "Tag": 162,
-            "ActionTag": 623531681,
-            "Size": {
-              "X": 670.0,
-              "Y": 322.0
-            },
-            "Name": "ufo",
-            "ctype": "SpriteObjectData"
-          },
-          {
-            "FileData": {
-              "Type": "Normal",
-              "Path": "user_2.png",
-              "Plist": ""
-            },
-            "BlendFunc": {
-              "Src": 770,
-              "Dst": 771
-            },
-            "AnchorPoint": {
-              "ScaleX": 2.4572,
-              "ScaleY": 4.714
-            },
-            "Position": {
-              "X": 536.3511,
-              "Y": 916.0151
-            },
-            "Scale": {
-              "ScaleX": 0.6362,
-              "ScaleY": 0.5842
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.4966,
-              "Y": 0.4771
-            },
-            "PreSize": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LeftMargin": 94.0615,
-            "RightMargin": 805.9385,
-            "TopMargin": 1672.5012,
-            "BottomMargin": 67.4987,
-            "Tag": 163,
-            "ActionTag": 702837830,
-            "Size": {
-              "X": 180.0,
-              "Y": 180.0
-            },
-            "Name": "user_1",
-            "ctype": "SpriteObjectData"
-          },
-          {
-            "FileData": {
-              "Type": "Normal",
-              "Path": "user_1.png",
-              "Plist": ""
-            },
-            "BlendFunc": {
-              "Src": 770,
-              "Dst": 771
-            },
-            "AnchorPoint": {
-              "ScaleX": -1.5046,
-              "ScaleY": 3.7561
-            },
-            "Position": {
-              "X": 536.3514,
-              "Y": 916.0135
-            },
-            "Scale": {
-              "ScaleX": 0.6882,
-              "ScaleY": 0.7401
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.4966,
-              "Y": 0.4771
-            },
-            "PreSize": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LeftMargin": 807.1715,
-            "RightMargin": 92.8285,
-            "TopMargin": 1500.0786,
-            "BottomMargin": 239.9213,
-            "Tag": 164,
-            "ActionTag": 1725178190,
-            "Size": {
-              "X": 180.0,
-              "Y": 180.0
-            },
-            "Name": "user_2",
             "ctype": "SpriteObjectData"
           },
           {
@@ -201,7 +63,7 @@
             "InnerActionSpeed": 1.0,
             "AnchorPoint": {},
             "Position": {
-              "X": 515.1633,
+              "X": 525.16,
               "Y": 927.3055
             },
             "Scale": {
@@ -211,15 +73,15 @@
             "CColor": {},
             "IconVisible": true,
             "PrePosition": {
-              "X": 0.477,
+              "X": 0.4863,
               "Y": 0.483
             },
             "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": 515.1633,
-            "RightMargin": 564.8367,
+            "LeftMargin": 525.16,
+            "RightMargin": 554.84,
             "TopMargin": 992.6945,
             "BottomMargin": 927.3055,
             "Tag": 170,
@@ -228,7 +90,131 @@
               "X": 0.0,
               "Y": 0.0
             },
+            "Alpha": 222,
             "Name": "planet",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "user_1.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 528.22,
+              "Y": 1309.7986
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": 3.044,
+            "RotationSkewY": 3.0018,
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4891,
+              "Y": 0.6822
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 528.22,
+            "RightMargin": 551.78,
+            "TopMargin": 610.2014,
+            "BottomMargin": 1309.7986,
+            "Tag": 25,
+            "ActionTag": 1810100359,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "user_1",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "user_2.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 525.1494,
+              "Y": 927.3057
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": -544.9158,
+            "RotationSkewY": -544.9158,
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4862,
+              "Y": 0.483
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 525.1494,
+            "RightMargin": 554.8506,
+            "TopMargin": 992.6943,
+            "BottomMargin": 927.3057,
+            "Tag": 114,
+            "ActionTag": -1338702019,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "user_2",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ufo.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 540.1699,
+              "Y": 927.3176
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "RotationSkewX": 3285.9448,
+            "RotationSkewY": 3285.9348,
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5002,
+              "Y": 0.483
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 540.1699,
+            "RightMargin": 539.8301,
+            "TopMargin": 992.6824,
+            "BottomMargin": 927.3176,
+            "Tag": 67,
+            "ActionTag": 1629684702,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ufo",
             "ctype": "ProjectNodeObjectData"
           }
         ],
@@ -240,11 +226,11 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "background.jpg",
+        "background.png",
         "planet.json",
-        "ufo.png",
-        "user_1.png",
-        "user_2.png"
+        "ufo.json",
+        "user_1.json",
+        "user_2.json"
       ],
       "ctype": "GameProjectData"
     }

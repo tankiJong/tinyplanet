@@ -5,207 +5,9 @@
   "Content": {
     "Content": {
       "Animation": {
-        "Duration": 90,
-        "Speed": 1.0,
-        "Timelines": [
-          {
-            "ActionTag": -364909239,
-            "Property": "FileData",
-            "Frames": [
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet01.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 0,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet02.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 5,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet03.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 10,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet04.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 15,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet05.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 20,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet06.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 25,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet07.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 30,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet08.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 35,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet09.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 40,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet10.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 45,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet11.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 50,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet12.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 55,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet13.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 60,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet14.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 65,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet15.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 70,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet16.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 75,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet17.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 80,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet18.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 85,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "planet/Planet01.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 90,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              }
-            ],
-            "ctype": "TimelineData"
-          }
-        ],
+        "Duration": 0,
+        "Speed": 0.4,
+        "Timelines": [],
         "ctype": "TimelineActionData"
       },
       "AnimationList": [],
@@ -215,7 +17,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "planet/Planet01.png",
+              "Path": "planet/Planet_00000.png",
               "Plist": ""
             },
             "BlendFunc": {
@@ -227,12 +29,12 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 3.0133,
-              "Y": -9.0396
+              "X": -0.0046,
+              "Y": -0.0031
             },
             "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
+              "ScaleX": 0.3337,
+              "ScaleY": 0.3337
             },
             "CColor": {},
             "IconVisible": false,
@@ -244,17 +46,17 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": -19.9867,
-            "RightMargin": -26.0133,
-            "TopMargin": -13.9604,
-            "BottomMargin": -32.0396,
-            "Tag": 44,
-            "ActionTag": -364909239,
+            "LeftMargin": -1479.0046,
+            "RightMargin": -1478.9954,
+            "TopMargin": -1478.9969,
+            "BottomMargin": -1479.0031,
+            "Tag": 3,
+            "ActionTag": 1356000353,
             "Size": {
-              "X": 978.0,
-              "Y": 978.0
+              "X": 2958.0,
+              "Y": 2958.0
             },
-            "Name": "planet",
+            "Name": "Sprite",
             "ctype": "SpriteObjectData"
           }
         ],
@@ -266,24 +68,7 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
-        "planet/Planet01.png",
-        "planet/Planet02.png",
-        "planet/Planet03.png",
-        "planet/Planet04.png",
-        "planet/Planet05.png",
-        "planet/Planet06.png",
-        "planet/Planet07.png",
-        "planet/Planet08.png",
-        "planet/Planet09.png",
-        "planet/Planet10.png",
-        "planet/Planet11.png",
-        "planet/Planet12.png",
-        "planet/Planet13.png",
-        "planet/Planet14.png",
-        "planet/Planet15.png",
-        "planet/Planet16.png",
-        "planet/Planet17.png",
-        "planet/Planet18.png"
+        "planet/Planet_00000.png"
       ],
       "ctype": "GameProjectData"
     }
