@@ -55,7 +55,8 @@ var GameScene = cc.Scene.extend({
                     other.rotation = data.playerTheta0;
 
                 }
-                self.planet.rotate (data.planetTheta + self.planet.rotation);
+                self.planet.rotate(-self.planet.rotation+data.planetTheta);
+
 
 
             }
@@ -140,6 +141,9 @@ var GameScene = cc.Scene.extend({
         //this.updatePlanetRotation(1);
         this._enableAccelerationRecognition();
         this.startScheduleTik();
+        if (status.local) {
+            jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "main", "()V");
+        }
     },
 
     //updatePlanetRotation: function(speed){
