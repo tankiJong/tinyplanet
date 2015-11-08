@@ -58,6 +58,7 @@ var GameScene = cc.Scene.extend({
                 self.planet.rotate(-self.planet.rotation+data.planetTheta);
 
 
+
             }
         });
         cc.eventManager.addListener(updateStatusListener, 1);
