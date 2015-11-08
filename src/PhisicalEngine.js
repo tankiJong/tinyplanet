@@ -72,10 +72,16 @@ var PhisicalEngine = {
                 (SETTINGS.PLANETI + SETTINGS.PLAYERI1);
             state.playerOmega1 += SETTINGS.TIMEINTERVAL * state.playerAlpha1 * SETTINGS.PLAYERI1 /
                 (SETTINGS.PLANETI + SETTINGS.PLAYERI0);
-            state.planetOmega = (SETTINGS.INITMOMENTUM -
+            state.planetOmega = SETTINGS.TIMEINTERVAL * state.playerAlpha0 * SETTINGS.PLAYERI0 /
+                (SETTINGS.PLANETI + SETTINGS.PLAYERI1) + SETTINGS.TIMEINTERVAL * state.playerAlpha1 * SETTINGS.PLAYERI1 /
+                (SETTINGS.PLANETI + SETTINGS.PLAYERI0);
+
+                /*
+                (SETTINGS.INITMOMENTUM -
                     SETTINGS.PLAYERI0 * state.playerOmega0 -
                     SETTINGS.PLAYERI1 * state.playerOmega1
                 ) / SETTINGS.PLANETI;
+                */
 
             // update server
             //jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "setServerState", "(Ljava/lang/String;)V", JSON.stringify(state));
