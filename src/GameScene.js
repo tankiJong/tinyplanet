@@ -41,11 +41,17 @@ var GameScene = cc.Scene.extend({
 
                 if (state.local) {
                     me.changeSpeed(data.playerOmega0);
-                    other.rotate(data.playerTheta1);
+                    //cc.log('=============   '+(data.playerTheta1-me.rotation));
+
+                    other.rotate((data.playerTheta1 - other.rotation) - (data.playerTheta0 - me.rotation),data.playerOmega1);
+                    me.rotation = data.playerTheta0;
+                    other.rotation = data.playerTheta1;
                 }
                 else {
                     me.changeSpeed(data.playerOmega1);
-                    other.rotate(data.playerTheta0);
+                    other.rotate((data.playerTheta0 - other.rotation) - (data.playerTheta1 - me.rotation));
+                    me.rotation = data.playerTheta1;
+                    other.rotation = data.playerTheta0;
 
                 }
                 self.planet.rotate (data.planetTheta-self.planet.rotation);
@@ -58,14 +64,20 @@ var GameScene = cc.Scene.extend({
         //this.phisicalEngine = new PhisicalEngine();
 
 
-        var PlayerAnimationCtrl = function (animationStr) {
+        var PlayerAnimationCtrl = function (animationStr,tagSalt) {
             var startRunAnimation = ccs.load(animationStr).action;
             startRunAnimation.gotoFrameAndPlay(0, 90, true);
+            startRunAnimation.setTag(tagSalt*23+0)
             var stopRunAnimation = ccs.load(animationStr).action;
+            stopRunAnimation.setTag(tagSalt*23+1)
             stopRunAnimation.gotoFrameAndPlay(0, 90, false);
             var byeAnimation = ccs.load(animationStr).action;
+            byeAnimation.setTag(tagSalt*23+2)
             byeAnimation.gotoFrameAndPlay(0, 90, true);
 
+            this.startRunAnimation=startRunAnimation;
+            this.stopRunAnimation=stopRunAnimation;
+            this.byeAnimation=byeAnimation;
             this.startRun = function () {
                 gameLayer.stopActionByTag(stopRunAnimation.tag);
                 gameLayer.stopActionByTag(byeAnimation.tag);
@@ -91,14 +103,15 @@ var GameScene = cc.Scene.extend({
         }
 
 
-        this.me = me = new PlayerAnimationCtrl(res.Me_animation);
+        this.me = me = new PlayerAnimationCtrl(res.Me_animation,1.5);
         this.me.startRun();
-        this.other = other = new PlayerAnimationCtrl(res.Him_animation);
+        this.me.rotation=0;
+        this.other = other = new PlayerAnimationCtrl(res.Him_animation,2.3);
         this.other.startRun();
-        other.location = 180;
+        this.other.rotation = 160;
 
-        other.rotate = function (deg) {
-            if (deg < 0) {
+        other.rotate = function (deg,spd) {
+            if (deg * spd < 0) {
                 var sprite = this.user_2.getChildByName('Sprite');
                 sprite.setFlippedX(!sprite.flippedX);
             }

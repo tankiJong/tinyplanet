@@ -98,7 +98,7 @@ var PhisicalEngine = {
      */
     update: function(player, alpha) {
         // 计算角加速度
-        alpha = alpha * alpha * ((alpha > 0)?1:-1);
+        alpha = alpha * alpha * ((alpha > 0)?1:-1) * 10;
         if (player === PLAYER.ME) {
             state.playerAlpha0 = alpha;
         }
