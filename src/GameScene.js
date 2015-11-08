@@ -42,13 +42,13 @@ var GameScene = cc.Scene.extend({
 
                 if (status.local) {
                     me.changeSpeed(data.playerOmega0);
-                    other.changeSpeed(data.playerOmega1);
+                    other.routate(data.playerTheta1);
                 }
                 else {
                     me.changeSpeed(data.playerOmega1);
-                    other.changeSpeed(data.playerOmega0);
+                    other.routate(data.playerTheta0);
                 }
-                self.updatePlanetRotation(data.planetOmega);
+                self.planet.rotate (data.planetTheta);
 
 
             }
@@ -72,7 +72,7 @@ var GameScene = cc.Scene.extend({
                 gameLayer.runAction(startRunAnimation);
             };
 
-            this.changeSpeed = function (spd) {
+            this.routate = function (spd) {
                 startRunAnimation.setTimeSpeed(UnitConversion(spd));
             };
 
@@ -104,7 +104,7 @@ var GameScene = cc.Scene.extend({
             this.user_2.setRotation(this.user_2.rotation + deg);
         }.bind(this);
         this.other = other;
-        
+
         var action = ccs.load(res.UFO_animation).action;
         action.gotoFrameAndPlay(0,144,true);
         action.setTimeSpeed(1);
