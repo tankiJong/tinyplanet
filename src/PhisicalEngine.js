@@ -1,6 +1,6 @@
 var SETTINGS = {
     TIMEINTERVAL: 0.1,
-    INITMOMENTUM: 10,
+    INITMOMENTUM: 12,
 
     PLAYERI0: 1, // 转动惯量
     PLAYERI1: 1,
@@ -8,9 +8,9 @@ var SETTINGS = {
 };
 
 var state = {
-    playerOmega0: 0, // 角速度
-    playerOmega1: 0,
-    planetOmega: 0,
+    playerOmega0: 1, // 角速度
+    playerOmega1: 1,
+    planetOmega: 1,
 
     playerAlpha0: 0, // 角加速度
     playerAlpha1: 0,
@@ -68,8 +68,10 @@ var PhisicalEngine = {
                 */
 
             // 计算速度
-            state.playerOmega0 += SETTINGS.TIMEINTERVAL * state.playerAlpha0;
-            state.playerOmega1 += SETTINGS.TIMEINTERVAL * state.playerAlpha1;
+            state.playerOmega0 += SETTINGS.TIMEINTERVAL * state.playerAlpha0 * SETTINGS.PLAYERI0 /
+                (SETTINGS.PLANETI + SETTINGS.PLAYERI1);
+            state.playerOmega1 += SETTINGS.TIMEINTERVAL * state.playerAlpha1 * SETTINGS.PLAYERI1 /
+                (SETTINGS.PLANETI + SETTINGS.PLAYERI0);
             state.planetOmega = (SETTINGS.INITMOMENTUM -
                     SETTINGS.PLAYERI0 * state.playerOmega0 -
                     SETTINGS.PLAYERI1 * state.playerOmega1
