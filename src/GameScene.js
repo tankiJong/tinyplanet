@@ -52,6 +52,7 @@ var GameScene = cc.Scene.extend({
 
         //this.phisicalEngine = new PhisicalEngine();
 
+
         var PlayerAnimationCtrl = function (animationStr) {
             var startRunAnimation = ccs.load(animationStr).action;
             startRunAnimation.gotoFrameAndPlay(0, 90, true);
