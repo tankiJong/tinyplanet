@@ -71,7 +71,7 @@ var PhisicalEngine = {
                 (SETTINGS.PLANETI + SETTINGS.PLAYERI1);
             state.playerOmega1 += SETTINGS.TIMEINTERVAL * state.playerAlpha1 * SETTINGS.PLAYERI1 /
                 (SETTINGS.PLANETI + SETTINGS.PLAYERI0);
-            state.planetOmega = SETTINGS.TIMEINTERVAL * state.playerAlpha0 * SETTINGS.PLAYERI0 /
+            state.planetOmega += SETTINGS.TIMEINTERVAL * state.playerAlpha0 * SETTINGS.PLAYERI0 /
                 (SETTINGS.PLANETI + SETTINGS.PLAYERI1) + SETTINGS.TIMEINTERVAL * state.playerAlpha1 * SETTINGS.PLAYERI1 /
                 (SETTINGS.PLANETI + SETTINGS.PLAYERI0);
 
