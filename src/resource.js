@@ -5,6 +5,7 @@ var res = {
     Planet_animation : "res/planet.json",
     Me_animation : "res/user_1.json",
     Him_animation : "res/user_2.json",
+    UFO_animation : "res/ufo.json",
 };
 
 var g_resources = [];
