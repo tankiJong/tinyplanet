@@ -39,6 +39,7 @@ var GameScene = cc.Scene.extend({
                 me.changeSpeed(data.mySpeed);
                 other.changeSpeed(data.hisSpeed);
                 self.updatePlanetRotation(data.planetSpeed);
+
             }
         });
         cc.eventManager.addListener(updateStatusListener, 1);
@@ -52,6 +53,7 @@ var GameScene = cc.Scene.extend({
         //    stopRunAnimation.gotoFrameAndPlay(0,90,false);
         //    var byeAnimation = ccs.load(animationStr).action;
         //    byeAnimation.gotoFrameAndPlay(0,90,true);
+        //
         //    this.startRun =function(){
         //        gameLayer.stopActionByTag(stopRunAnimation.tag);
         //        gameLayer.stopActionByTag(byeAnimation.tag);
@@ -78,6 +80,13 @@ var GameScene = cc.Scene.extend({
         //
         //this.me = me = new PlayerAnimationCtrl(res.Me_animation);
         //this.other = other = new PlayerAnimationCtrl(res.Him_animation);
+        //other.location = 180;
+        //var otherObj = this.user_2;
+        //other.rotate = function(deg){
+        //    var otherObj =cc.Node.create().;
+        //    otherObj.rotationX(otherObj.getRotationX()*(-1));
+        //}
+        //this.other = other;
     },
 
     onEnter:function(){
@@ -93,16 +102,31 @@ var GameScene = cc.Scene.extend({
             cc.log("called update");
             action = ccs.load(res.Planet_animation).action;
             cc.log(action?'getttttt':'Nooooooo');
-            action.gotoFrameAndPlay(0,90,true);
+            action.gotoFrameAndPlay(0,360,true);
             action.setTimeSpeed(UnitConversion(1));
             action = this.gameLayer.runAction(action);
             this.scheduleUpdate();
             this.planet._action =action;
+            action.direction =1;
             //GameScene.ac=action;
         }
         else {
-            action = this.planet._action;
             var f= action.getCurrentFrame();
+            action = this.planet._action;
+            if(speed*action.direction < 0){
+                if(speed > 0){
+                    action.gotoFrameAndPlay(0,360,true);
+                    action.setCurrentFrame(720 - f);
+                    action.setTimeSpeed(UnitConversion(speed));
+                } else {
+                    action.gotoFrameAndPlay(360,720,true);
+                    action.setCurrentFrame(720 - f);
+                    action.setTimeSpeed(UnitConversion(-speed));
+                }
+                action.direction = action.direction *(-1);
+
+            }
+
             action.setTimeSpeed(UnitConversion(speed));
             action.setCurrentFrame(f);
         }
