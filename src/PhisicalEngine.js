@@ -34,6 +34,7 @@ var PhisicalEngine = {
      */
     ticker: function() {
 
+        cc.log(123);
         if (status.local) {
             // 更新远程端的加速度
             var result = jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "getClientInput", "()Ljava/lang/String;");
@@ -43,22 +44,28 @@ var PhisicalEngine = {
             // 计算相对位置
 
             status.playerTheta0 += SETTINGS.TIMEINTERVAL * (status.playerOmega0 + status.playerAlpha0/2);
+            /*
             while (status.playerTheta0 < 0)
                 status.playerTheta0 += 360;
             while (status.playerTheta0 < 360)
                 status.playerTheta0 -= 360;
+                */
 
             status.playerTheta1 += SETTINGS.TIMEINTERVAL * (status.playerOmega1 + status.playerAlpha1/2);
+            /*
             while (status.playerTheta1 < 0)
                 status.playerTheta1 += 360;
             while (status.playerTheta1 < 360)
                 status.playerTheta1 -= 360;
+                */
 
             status.planetTheta += SETTINGS.TIMEINTERVAL * (status.planetOmega + status.planetAlpha/2);
+            /*
             while (status.planetTheta < 0)
                 status.planetTheta += 360;
             while (status.planetTheta < 360)
                 status.planetTheta -= 360;
+                */
 
             // 计算速度
             status.playerOmega0 += SETTINGS.TIMEINTERVAL * status.playerAlpha0;
@@ -72,7 +79,7 @@ var PhisicalEngine = {
             jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "setServerState", "(Ljava/lang/String;)V", JSON.stringify(status));
         }
         else {
-            status = JSON.stringify(jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkClient", "getState", "()Ljava/lang/String;)"));
+            //status = JSON.stringify(jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkClient", "getState", "()Ljava/lang/String;)"));
         }
 
         // update ticker

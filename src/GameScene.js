@@ -16,7 +16,6 @@ var GameScene = cc.Scene.extend({
 
     init: function() {
         this._super();
-        this._enableAccelerationRecognition();
         var gameLayer = ccs.load(res.GameLayer_json).node;
         var me, other;
         this.gameLayer = gameLayer;
@@ -37,16 +36,21 @@ var GameScene = cc.Scene.extend({
             eventName: "update_status",
 
             callback: function(event){
-                var data=event.getData();
+                var data = event.getUserData();
                 data = JSON.parse(data);
 
                 if (status.local) {
+<<<<<<< HEAD
                     me.changeSpeed(data.playerOmega0);
                     other.routate(data.playerTheta1);
                 }
                 else {
                     me.changeSpeed(data.playerOmega1);
                     other.routate(data.playerTheta0);
+=======
+                }
+                else {
+>>>>>>> 058417d7b16324799fd4e19f9384408f089ed346
                 }
                 self.planet.rotate (data.planetTheta);
 
@@ -56,6 +60,7 @@ var GameScene = cc.Scene.extend({
         cc.eventManager.addListener(updateStatusListener, 1);
 
         //this.phisicalEngine = new PhisicalEngine();
+
 
         var PlayerAnimationCtrl = function (animationStr) {
             var startRunAnimation = ccs.load(animationStr).action;
@@ -122,6 +127,8 @@ var GameScene = cc.Scene.extend({
     onEnter:function(){
         this._super();
         //this.updatePlanetRotation(1);
+        this._enableAccelerationRecognition();
+        this.startScheduleTik();
     },
 
     //updatePlanetRotation: function(speed){
@@ -169,11 +176,11 @@ var GameScene = cc.Scene.extend({
     },
 
     unscheduleTik: function(){
-        cc.unschedule(this.tik);
+        this.unschedule(this.tik);
     },
 
     startScheduleTik: function(){
-        cc.schedule(this.tik, 0.1);
+        this.schedule(this.tik, SETTINGS.TIMEINTERVAL, cc.REPEAT_FOREVER, 0);
     },
 
     _enableAccelerationRecognition: function() {
@@ -187,16 +194,12 @@ var GameScene = cc.Scene.extend({
 
                 status.player0 = acc.y;
                 //console.log(acc.x + " " + acc.y + " " + acc.z);
-                //PhisicalEngine.update(PLAYER.ME, acc.y)
+                PhisicalEngine.update(PLAYER.ME, acc.y)
             }
 
         }, this);
     },
 
     update:function(){
-        if(this.planet._action.isPlaying()){
-            cc.log('isPlaying');
-            this.count++;
-        }
     }
 });
