@@ -37,9 +37,8 @@ var PhisicalEngine = {
         cc.log(123);
         if (state.local) {
             // 更新远程端的加速度
-            //var result = jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "getClientInput", "()Ljava/lang/String;");
-            state.playerAlpha1 = parseFloat(0);
-            state.playerAlpha0=10;
+            var result = jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "getClientInput", "()Ljava/lang/String;");
+            state.playerAlpha1 = parseFloat(result);
 
             // 计算相对位置
 
@@ -84,7 +83,7 @@ var PhisicalEngine = {
                 */
 
             // update server
-            //jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "setServerState", "(Ljava/lang/String;)V", JSON.stringify(state));
+            jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "setServerState", "(Ljava/lang/String;)V", JSON.stringify(state));
         }
         else {
             //state = JSON.stringify(jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkClient", "getState", "()Ljava/lang/String;)"));
