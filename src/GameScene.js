@@ -55,7 +55,7 @@ var GameScene = cc.Scene.extend({
                     other.rotation = data.playerTheta0;
 
                 }
-                self.planet.rotate (data.planetTheta-self.planet.rotation);
+                self.planet.rotate (self.planet.rotation-data.planetTheta);
 
 
             }
