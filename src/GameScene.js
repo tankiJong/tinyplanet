@@ -36,9 +36,17 @@ var GameScene = cc.Scene.extend({
             eventName: "update_status",
             callback: function(event){
                 var data=event.getData();
-                me.changeSpeed(data.mySpeed);
-                other.changeSpeed(data.hisSpeed);
-                self.updatePlanetRotation(data.planetSpeed);
+                data = JSON.parse(data);
+
+                if (status.local) {
+                    me.changeSpeed(data.playerOmega0);
+                    other.changeSpeed(data.playerOmega1);
+                }
+                else {
+                    me.changeSpeed(data.playerOmega1);
+                    other.changeSpeed(data.playerOmega0);
+                }
+                self.updatePlanetRotation(data.planetOmega);
 
             }
         });
