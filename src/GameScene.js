@@ -33,13 +33,13 @@ var GameScene = cc.Scene.extend({
         var self = this;
         var updateStatusListener = cc.EventListener.create({
             event: cc.EventListener.CUSTOM,
-            eventName: "update_status",
+            eventName: "update_state",
 
             callback: function(event){
                 var data = event.getUserData();
                 data = JSON.parse(data);
 
-                if (status.local) {
+                if (state.local) {
                     me.changeSpeed(data.playerOmega0);
                     other.rotate(data.playerTheta1);
                 }
@@ -169,7 +169,7 @@ var GameScene = cc.Scene.extend({
         cc.log('i will be called many times');
         PhisicalEngine.ticker();
         this.ufo.rotate(1);
-        cc.log(status.playerOmega0 + " " + status.planetOmega);
+        cc.log(state.playerOmega0 + " " + state.planetOmega);
     },
 
     unscheduleTik: function(){
@@ -189,7 +189,7 @@ var GameScene = cc.Scene.extend({
 
             callback: function(acc, event) {
 
-                status.player0 = acc.y;
+                state.player0 = acc.y;
                 //console.log(acc.x + " " + acc.y + " " + acc.z);
                 PhisicalEngine.update(PLAYER.ME, acc.y)
             }
