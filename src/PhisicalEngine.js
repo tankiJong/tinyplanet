@@ -44,27 +44,27 @@ var PhisicalEngine = {
 
             state.playerTheta0 += SETTINGS.TIMEINTERVAL * (state.playerOmega0 + state.playerAlpha0/2);
             /*
-            while (state.playerTheta0 < 0)
-                state.playerTheta0 += 360;
-            while (state.playerTheta0 < 360)
-                state.playerTheta0 -= 360;
-                */
+             while (state.playerTheta0 < 0)
+             state.playerTheta0 += 360;
+             while (state.playerTheta0 < 360)
+             state.playerTheta0 -= 360;
+             */
 
             state.playerTheta1 += SETTINGS.TIMEINTERVAL * (state.playerOmega1 + state.playerAlpha1/2);
             /*
-            while (state.playerTheta1 < 0)
-                state.playerTheta1 += 360;
-            while (state.playerTheta1 < 360)
-                state.playerTheta1 -= 360;
-                */
+             while (state.playerTheta1 < 0)
+             state.playerTheta1 += 360;
+             while (state.playerTheta1 < 360)
+             state.playerTheta1 -= 360;
+             */
 
             state.planetTheta += SETTINGS.TIMEINTERVAL * (state.planetOmega + state.planetAlpha/2);
             /*
-            while (state.planetTheta < 0)
-                state.planetTheta += 360;
-            while (state.planetTheta < 360)
-                state.planetTheta -= 360;
-                */
+             while (state.planetTheta < 0)
+             state.planetTheta += 360;
+             while (state.planetTheta < 360)
+             state.planetTheta -= 360;
+             */
 
             // 计算速度
             state.playerOmega0 += SETTINGS.TIMEINTERVAL * state.playerAlpha0 * SETTINGS.PLAYERI0 /
@@ -75,12 +75,12 @@ var PhisicalEngine = {
                 (SETTINGS.PLANETI + SETTINGS.PLAYERI1) + SETTINGS.TIMEINTERVAL * state.playerAlpha1 * SETTINGS.PLAYERI1 /
                 (SETTINGS.PLANETI + SETTINGS.PLAYERI0);
 
-                /*
-                (SETTINGS.INITMOMENTUM -
-                    SETTINGS.PLAYERI0 * state.playerOmega0 -
-                    SETTINGS.PLAYERI1 * state.playerOmega1
-                ) / SETTINGS.PLANETI;
-                */
+            /*
+             (SETTINGS.INITMOMENTUM -
+             SETTINGS.PLAYERI0 * state.playerOmega0 -
+             SETTINGS.PLAYERI1 * state.playerOmega1
+             ) / SETTINGS.PLANETI;
+             */
 
             // update server
             jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "setServerState", "(Ljava/lang/String;)V", JSON.stringify(state));
