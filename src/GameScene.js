@@ -103,11 +103,11 @@ var GameScene = cc.Scene.extend({
         }
 
 
-        this.me = me = new PlayerAnimationCtrl(res.Me_animation,1.5);
+        this.me = me = new PlayerAnimationCtrl(res.Me_animation,3.1);
         this.me.startRun();
         this.me.rotation=0;
-        this.other = other = new PlayerAnimationCtrl(res.Him_animation,2.3);
-        this.other.startRun();
+        this.other = other = new PlayerAnimationCtrl(res.Him_animation,1.7);
+        //this.other.startRun();
         this.other.rotation = 160;
 
         other.rotate = function (deg,spd) {
