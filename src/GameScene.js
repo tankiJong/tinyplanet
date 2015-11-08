@@ -40,16 +40,17 @@ var GameScene = cc.Scene.extend({
                 data = JSON.parse(data);
 
                 if (state.local) {
-                    me.changeSpeed(data.playerOmega0);
+                    cc.log('================'+data.playerOmega0);
+                    me.changeSpeed(0.1*data.playerOmega0);
                     //cc.log('=============   '+(data.playerTheta1-me.rotation));
 
-                    other.rotate((data.playerTheta1 - other.rotation) - (data.playerTheta0 - me.rotation),data.playerOmega1);
+                    other.rotate((data.playerTheta1 - other.rotation) - (data.playerTheta0 - me.rotation));
                     me.rotation = data.playerTheta0;
                     other.rotation = data.playerTheta1;
                 }
                 else {
-                    me.changeSpeed(data.playerOmega1);
-                    other.rotate((data.playerTheta0 - other.rotation) - (data.playerTheta1 - me.rotation));
+                    me.changeSpeed(0.1*data.playerOmega1);
+                    other.rotate((data.playerTheta0 - other.rotation) - (data.playerTheta1 - me.rotation),data.playerOmega1);
                     me.rotation = data.playerTheta1;
                     other.rotation = data.playerTheta0;
 
@@ -82,7 +83,7 @@ var GameScene = cc.Scene.extend({
                 gameLayer.stopActionByTag(stopRunAnimation.tag);
                 gameLayer.stopActionByTag(byeAnimation.tag);
                 startRunAnimation.setTimeSpeed(1);
-                gameLayer.runAction(startRunAnimation);
+                startRunAnimation = gameLayer.runAction(startRunAnimation);
             };
 
             this.changeSpeed = function (spd) {
@@ -109,13 +110,14 @@ var GameScene = cc.Scene.extend({
         this.other = other = new PlayerAnimationCtrl(res.Him_animation,1.7);
         //this.other.startRun();
         this.other.rotation = 160;
-
-        other.rotate = function (deg,spd) {
-            if (deg * spd < 0) {
+        other.spd=0;
+        other.rotate = function (deg) {
+            if (deg * this.spd < 0) {
                 var sprite = this.user_2.getChildByName('Sprite');
                 sprite.setFlippedX(!sprite.flippedX);
             }
             this.user_2.setRotation(this.user_2.rotation + deg);
+            this.spd=deg;
         }.bind(this);
         this.other = other;
 

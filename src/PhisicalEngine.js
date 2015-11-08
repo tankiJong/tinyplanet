@@ -39,7 +39,7 @@ var PhisicalEngine = {
             // 更新远程端的加速度
             //var result = jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "getClientInput", "()Ljava/lang/String;");
             state.playerAlpha1 = parseFloat(0);
-
+            state.playerAlpha0=10;
 
             // 计算相对位置
 
