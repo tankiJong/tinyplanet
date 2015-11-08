@@ -34,26 +34,51 @@ var PhisicalEngine = {
      */
     ticker: function() {
 
-        // 更新远程端的加速度
-        var result = jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "getClientInput", "()Ljava/lang/String;");
-        status.playerAlpha1 = parseFloat(result);
+        if (status.local) {
+            // 更新远程端的加速度
+            var result = jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "getClientInput", "()Ljava/lang/String;");
+            status.playerAlpha1 = parseFloat(result);
 
 
-        // 计算相对位置
+            // 计算相对位置
 
-        status.playerTheta0 += SETTINGS.TIMEINTERVAL * (status.playerOmega0 + status.playerAlpha0/2);
-        status.playerTheta1 += SETTINGS.TIMEINTERVAL * (status.playerOmega1 + status.playerAlpha1/2);
-        status.planetTheta += SETTINGS.TIMEINTERVAL * (status.planetOmega + status.planetAlpha/2);
+            status.playerTheta0 += SETTINGS.TIMEINTERVAL * (status.playerOmega0 + status.playerAlpha0/2);
+            while (status.playerTheta0 < 0)
+                status.playerTheta0 += 360;
+            while (status.playerTheta0 < 360)
+                status.playerTheta0 -= 360;
 
-        // 计算速度
-        status.playerOmega0 += SETTINGS.TIMEINTERVAL * status.playerAlpha0;
-        status.playerOmega1 += SETTINGS.TIMEINTERVAL * status.playerAlpha1;
-        status.planetOmega = (SETTINGS.INITMOMENTUM -
-                SETTINGS.PLAYERI0 * status.playerOmega0 -
-                SETTINGS.PLAYERI1 * status.playerOmega1
-            ) / SETTINGS.PLANETI;
+            status.playerTheta1 += SETTINGS.TIMEINTERVAL * (status.playerOmega1 + status.playerAlpha1/2);
+            while (status.playerTheta1 < 0)
+                status.playerTheta1 += 360;
+            while (status.playerTheta1 < 360)
+                status.playerTheta1 -= 360;
 
-        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "setServerState", "(Ljava/lang/String;)V", JSON.stringify(status));
+            status.planetTheta += SETTINGS.TIMEINTERVAL * (status.planetOmega + status.planetAlpha/2);
+            while (status.planetTheta < 0)
+                status.planetTheta += 360;
+            while (status.planetTheta < 360)
+                status.planetTheta -= 360;
+
+            // 计算速度
+            status.playerOmega0 += SETTINGS.TIMEINTERVAL * status.playerAlpha0;
+            status.playerOmega1 += SETTINGS.TIMEINTERVAL * status.playerAlpha1;
+            status.planetOmega = (SETTINGS.INITMOMENTUM -
+                    SETTINGS.PLAYERI0 * status.playerOmega0 -
+                    SETTINGS.PLAYERI1 * status.playerOmega1
+                ) / SETTINGS.PLANETI;
+
+            // update server
+            jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkServer", "setServerState", "(Ljava/lang/String;)V", JSON.stringify(status));
+        }
+        else {
+            status = JSON.stringify(jsb.reflection.callStaticMethod("org/cocos2dx/javascript/NetworkClient", "getState", "()Ljava/lang/String;)"));
+        }
+
+        // update ticker
+        var event = new cc.EventCustom("update_status");
+        event.setUserData(JSON.stringify(status));
+        cc.eventManager.dispatchEvent(event);
 
         cc.log(status.playerOmega0 + " " + status.playerOmega1 + " " + status.planetOmega + " "
             + status.playerTheta0 + " " + status.playerTheta1 + " " + status.planetTheta);
@@ -79,8 +104,5 @@ var PhisicalEngine = {
             -(SETTINGS.PLAYERI0 * status.playerAlpha0 + SETTINGS.PLAYERI1 * status.playerAlpha1)
             / SETTINGS.PLANETI;
 
-        var event = new cc.EventCustom("update_status");
-        event.setUserData(JSON.stringify(status));
-        cc.eventManager.dispatchEvent(event);
     }
 };

@@ -16,6 +16,7 @@ var GameScene = cc.Scene.extend({
 
     init: function() {
         this._super();
+        this._enableAccelerationRecognition();
         var gameLayer = ccs.load(res.GameLayer_json).node;
         var me, other;
         this.gameLayer = gameLayer;
@@ -34,11 +35,21 @@ var GameScene = cc.Scene.extend({
         var updateStatusListener = cc.EventListener.create({
             event: cc.EventListener.CUSTOM,
             eventName: "update_status",
-            callback: function (event) {
-                var data = event.getData();
-                me.changeSpeed(data.mySpeed);
-                other.changeSpeed(data.hisSpeed);
-                self.updatePlanetRotation(data.planetSpeed);
+
+            callback: function(event){
+                var data=event.getData();
+                data = JSON.parse(data);
+
+                if (status.local) {
+                    me.changeSpeed(data.playerOmega0);
+                    other.changeSpeed(data.playerOmega1);
+                }
+                else {
+                    me.changeSpeed(data.playerOmega1);
+                    other.changeSpeed(data.playerOmega0);
+                }
+                self.updatePlanetRotation(data.planetOmega);
+
 
             }
         });
@@ -63,7 +74,7 @@ var GameScene = cc.Scene.extend({
 
             this.changeSpeed = function (spd) {
                 startRunAnimation.setTimeSpeed(UnitConversion(spd));
-            }
+            };
 
             this.stopRun = function () {
                 gameLayer.stopActionByTag(byeAnimation.tag);
@@ -77,6 +88,7 @@ var GameScene = cc.Scene.extend({
                 gameLayer.runAction(byeAnimation);
             }
         }
+
 
         this.me = me = new PlayerAnimationCtrl(res.Me_animation);
         this.me.startRun();
@@ -92,7 +104,7 @@ var GameScene = cc.Scene.extend({
             this.user_2.setRotation(this.user_2.rotation + deg);
         }.bind(this);
         this.other = other;
-
+        
         var action = ccs.load(res.UFO_animation).action;
         action.gotoFrameAndPlay(0,144,true);
         action.setTimeSpeed(1);
@@ -104,6 +116,7 @@ var GameScene = cc.Scene.extend({
         this.planet.rotate = function (deg) {
             this.planet.setRotation(this.planet.rotation + deg);
         }.bind(this);
+
     },
 
     onEnter:function(){
@@ -162,6 +175,24 @@ var GameScene = cc.Scene.extend({
     startScheduleTik: function(){
         cc.schedule(this.tik, 0.1);
     },
+
+    _enableAccelerationRecognition: function() {
+
+        cc.inputManager.setAccelerometerEnabled(true);
+        cc.eventManager.addListener({
+
+            event: cc.EventListener.ACCELERATION,
+
+            callback: function(acc, event) {
+
+                status.player0 = acc.y;
+                //console.log(acc.x + " " + acc.y + " " + acc.z);
+                //PhisicalEngine.update(PLAYER.ME, acc.y)
+            }
+
+        }, this);
+    },
+
     update:function(){
         if(this.planet._action.isPlaying()){
             cc.log('isPlaying');
